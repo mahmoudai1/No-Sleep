@@ -4,7 +4,7 @@
 
 
 # I. Description of the Selected Problem:
-• Each year, nearly 100,000 traffic crashes can be attributed to drowsy driving, including more than 1,500 deaths and over 70,000 injuries according to the <ins>**U.S.**</ins> National Highway Traffic Safety Administration. Most drowsy driving accidents occur between midnight and 6 a.m. among drivers who are alone in their vehicles (Medicalxpress.com, 2018). So, I tried to solve this problem by myself. The Application is developed using Amazon Rekognition Algorithm for detecting whether “EyesOpen” is True or False.
+• Each year, nearly 100,000 traffic crashes can be attributed to drowsy driving, including more than 1,500 deaths and over 70,000 injuries according to the <ins>**U.S.**</ins> National Highway Traffic Safety Administration. Most drowsy driving accidents occur between midnight and 6 a.m. among drivers who are alone in their vehicles (Medicalxpress.com, 2018). So, I tried to solve this problem by myself. The Application is developed using Amazon Rekognition for detecting whether “EyesOpen” is True or False.
 
 
 # II. What the Application does:
