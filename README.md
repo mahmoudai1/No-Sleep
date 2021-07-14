@@ -12,7 +12,7 @@
   
 
 # III. How it works:
-• The Application lets the device’s camera capture an image each few seconds and save it locally in the device, sending this image’s <ins>**bytes**</ins> to Rekognition’s API, and then I get the response as a JSON file. If the Value for the **EyesOpen** is False, then an alert will start to play and vibration will happen. Then, the image will be deleted from the device to prevent huge storage usage. Once the driver has opened his eyes, the sound and vibration will stop automatically. This process happens whenever the Application is opened. The Application uses Wakelock Package to prevent the device from sleeping. 
+• The Application lets the device’s camera capture an image each few seconds and save it locally in the device, sending this image’s <ins>**bytes**</ins> to Rekognition’s API, and then I get the response as a JSON file. If the Confidence for that a Face is included in the image more than 98, and the Value for the **EyesOpen** is False, then an alert will start to play and vibration will happen. Then, the image will be deleted from the device to prevent huge storage usage. Once the driver has opened his eyes, the sound and vibration will stop automatically. This process happens whenever the Application is opened. The Application uses Wakelock Package to prevent the device from sleeping. 
 
 <ins>**Note:**</ins> A delay may happen when the driver wakes up and the sound/vibration waits a few seconds to stop, for that case, I have implemented that if the driver touched the Application anywhere, any sound/vibration will be force stopped.
 
