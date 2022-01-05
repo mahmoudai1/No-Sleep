@@ -1,4 +1,4 @@
-# No Sleep (College Project)
+# No Sleep
 
 • An Integration of Amazon Rekognition and Flutter for Tracking Drivers’ Eyes.
 
