@@ -1,23 +1,16 @@
 # No Sleep
 
-• An Integration of Amazon Rekognition and Flutter for Tracking Drivers’ Eyes.
-
-
-# I. Description of the Selected Problem:
-• Each year, nearly 100,000 traffic crashes can be attributed to drowsy driving, including more than 1,500 deaths and over 70,000 injuries according to the <ins>**U.S.**</ins> National Highway Traffic Safety Administration. Most drowsy driving accidents occur between midnight and 6 a.m. among drivers who are alone in their vehicles (Medicalxpress.com, 2018). So, I tried to solve this problem by myself. The Application is developed using Amazon Rekognition for detecting whether “EyesOpen” is True or False.
-
-
-# II. What the Application does:
+• An Integration of Amazon Rekognition and Flutter for Tracking Drivers’ Eyes.<br/>
 • It detects drivers’ eyes as if they slept while driving, a sound and vibration will start to play until he wakes up.
   
 
-# III. How it works:
+# How it works:
 • The Application lets the device’s camera capture an image each few seconds and save it locally in the device, sending this image’s <ins>**bytes**</ins> to Rekognition’s API, and then I get the response as a JSON file. If the Confidence for that a Face is included in the image more than 98, and the Value for the **EyesOpen** is False, then an alert will start to play and vibration will happen. Then, the image will be deleted from the device to prevent huge storage usage. Once the driver has opened his eyes, the sound and vibration will stop automatically. This process happens whenever the Application is opened. The Application uses Wakelock Package to prevent the device from sleeping. 
 
 <ins>**Note:**</ins> A delay may happen when the driver wakes up and the sound/vibration waits a few seconds to stop, for that case, I have implemented that if the driver touched the Application anywhere, any sound/vibration will be force stopped.
 
 
-# IV. Performance/Monitoring:
+# Performance/Monitoring:
   **Performance measured by using Flutter DevTools (Flutter run -- profile)**
   
 **• Network/Requests:**
@@ -36,7 +29,7 @@
 
   
 
-# V. Application Architecture:
+# Application Architecture:
 <img width="1336" alt="Architecture" src="https://user-images.githubusercontent.com/66283081/119772388-5b9d5280-bebf-11eb-81f7-b4881fe54baa.png">
 
 
@@ -49,7 +42,7 @@
 • vibration
   
 
-# VII. Real Life Testing:
+# Real Life Testing:
 • Drivers have to buy a Mobile Phone holder to embed it in the Car Steering Wheel. It costs 31EGP ≅ $2. I already bought one from souq.com to test the Application. A <ins>**link**</ins> and a <ins>**picture**</ins> of the product are attached below.
 
 https://egypt.souq.com/eg-en/functional-mobile-phone-holder-mount-clip-buckle-socket-hands-free-on-car-steering-wheel-7536478/i/
@@ -58,7 +51,7 @@ https://www.amazon.com/Mobile-Holder-Steering-Samsung-Cellphones/dp/B06XXQ6B3M/r
 
 <img width="346" alt="Mobile Phone Holder for Steering Wheel" src="https://user-images.githubusercontent.com/66283081/119617319-05b6a500-be02-11eb-890f-fb0ed5b1a26f.png">
 
-# <ins>VIII. *Discussions:</ins>
+# <ins>*Discussions:</ins>
 
 • A better idea to implement this application is to try to embed a built-in camera in the steering wheel itself instead of the Mobile holder, this requires the acceptance of the car’s company. If the company accepted, a new feature may be added is to let the car itself flash if the driver slept, so that any nearby car knows that this car’s driver is sleeping.
 
@@ -77,11 +70,11 @@ https://www.amazon.com/Mobile-Holder-Steering-Samsung-Cellphones/dp/B06XXQ6B3M/r
 • May use ImageStreaming technique rather than capture an image every few seconds.
 
 
-# IX. Known Issues:
+# Known Issues:
 • If the driver is wearing a glass, Rekognition will always detect his eyes as open even if they are closed.
 
 
-# X. Screenshot of the Application:
+# Screenshot of the Application:
 <img width="400" alt="Screenshot of the Application" src="https://user-images.githubusercontent.com/66283081/119617836-7fe72980-be02-11eb-92fc-021097222494.PNG">
 
 
@@ -98,28 +91,16 @@ https://www.amazon.com/Mobile-Holder-Steering-Samsung-Cellphones/dp/B06XXQ6B3M/r
    • **Lowest Brightness:** To reduce Battery Usage.
 
 
-# XI. Application Logo:
+# Application Logo:
 <img width="150" alt="Application Logo" src="https://user-images.githubusercontent.com/66283081/119617250-eb7cc700-be01-11eb-9ef4-39fcffdb752b.png">
 
 
-# XII. Application Size:
+# Application Size:
 • 62 MB
   
 
-# XIII. Battery Usage:
+# Battery Usage:
 • 4% used at 1h 34m
-
-
-# XIV. What I learned:
-• Amazon Rekognition
-
-• More Flutter
-
-
-# XV. Built with:
-• Amazon Rekognition
-
-• Flutter
 
 # Contact:
 • mahmoud.ahmed48@msa.edu.eg
