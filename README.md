@@ -33,7 +33,7 @@
 <img width="1336" alt="Architecture" src="https://user-images.githubusercontent.com/66283081/119772388-5b9d5280-bebf-11eb-81f7-b4881fe54baa.png">
 
 
-# VI. Flutter Packages I used:
+# Flutter Packages used:
 • Camera
 • Wakelock
 • http
@@ -95,16 +95,6 @@ https://www.amazon.com/Mobile-Holder-Steering-Samsung-Cellphones/dp/B06XXQ6B3M/r
 <img width="150" alt="Application Logo" src="https://user-images.githubusercontent.com/66283081/119617250-eb7cc700-be01-11eb-9ef4-39fcffdb752b.png">
 
 
-# Application Size:
-• 62 MB
-  
-
-# Battery Usage:
-• 4% used at 1h 34m
-
 # Contact:
 • mahmoud.ahmed48@msa.edu.eg
 
-<br/>
-
-#### Made with :heart: in Egypt
